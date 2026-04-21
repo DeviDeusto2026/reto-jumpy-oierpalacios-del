@@ -892,6 +892,30 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2, y: 3, z: 2}
   m_Center: {x: 0, y: 1.5, z: 0}
+--- !u!114 &1971008225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1971008218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad5b4ba5b1d75f94faec18db00c6f13b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::playerMovement
+--- !u!114 &1971008226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1971008218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3aac92923c263064583eb99c31e71524, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::playerJumping
 --- !u!1001 &3503230331243135894
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1505,6 +1529,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3501913615090349002, guid: 13aca049c67820644ba390980277e1e1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1971008222}
+    - targetCorrespondingSourceObject: {fileID: 3501913615090349002, guid: 13aca049c67820644ba390980277e1e1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1971008226}
+    - targetCorrespondingSourceObject: {fileID: 3501913615090349002, guid: 13aca049c67820644ba390980277e1e1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1971008225}
     - targetCorrespondingSourceObject: {fileID: 3503230331110926717, guid: 13aca049c67820644ba390980277e1e1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 780078230}
